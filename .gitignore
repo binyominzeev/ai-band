@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Jest coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
