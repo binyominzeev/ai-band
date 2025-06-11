@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Band MVP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>AI Band - Generate Your Accompaniment</h1>
+        <form id="upload-form">
+            <label for="audio-upload">Upload your raw guitar/vocal recording:</label>
+            <input type="file" id="audio-upload" accept="audio/*" required>
+            <label for="style-description">Describe the output style:</label>
+            <input type="text" id="style-description" placeholder="e.g., Jazz, Rock" required>
+            <button type="submit">Generate Accompaniment</button>
+        </form>
+        <div id="result">
+            <h2>Generated Accompaniment:</h2>
+            <audio id="accompaniment-audio" controls></audio>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
